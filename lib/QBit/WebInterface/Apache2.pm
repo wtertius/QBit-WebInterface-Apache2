@@ -44,11 +44,12 @@ sub handler : method {
     };
 
     my $status = $self->response->status;
+    $r->status($status);
 
     $self->request(undef);
     $self->response(undef);
 
-    return $status;
+    return Apache2::Const::OK;
 }
 
 sub get_cmd {
