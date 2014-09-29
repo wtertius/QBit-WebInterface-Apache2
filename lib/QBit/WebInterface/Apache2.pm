@@ -44,7 +44,7 @@ sub handler : method {
     };
 
     my $status = $self->response->status;
-    $r->status($status);
+    $r->status($status) if defined($status);
 
     $self->request(undef);
     $self->response(undef);
