@@ -1,3 +1,18 @@
+libqbit-webinterface-apache2-perl (0.002) raring; urgency=low
+
+  * Fixing handler return value
+  * http://perl.apache.org/docs/2.0/user/handlers/intro.html#Handler_Retu
+    rn_Values
+  * Hander return values are not status codes:
+  * $ perl -MApache2::Const -E 'say Apache2::Const::OK;'
+  * 0
+  * $ perl -MApache2::Const -E 'say Apache2::Const::DECLINED;'
+  * -1
+  * $ perl -MApache2::Const -E 'say Apache2::Const::DONE;'
+  * -2
+
+ -- Ivan Bessarabov <ivan@bessarabov.ru>  Mon, 29 Sep 2014 21:40:17 +0400
+
 libqbit-webinterface-apache2-perl (0.001) raring; urgency=low
 
   * Initial commit
