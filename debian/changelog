@@ -1,13 +1,13 @@
-libqbit-webinterface-apache2-perl (0.003) raring; urgency=low
+libtertiusqbit-webinterface-apache2-perl (0.003) raring; urgency=low
 
   * Fixing uninitialized value
   * Before this change I get error:
   * Use of uninitialized value in subroutine entry at
-  * /usr/share/perl5/QBit/WebInterface/Apache2.pm line 50
+  * /usr/share/perl5/TertiusQBit/WebInterface/Apache2.pm line 50
 
  -- Ivan Bessarabov <ivan@bessarabov.ru>  Tue, 30 Sep 2014 09:49:39 +0400
 
-libqbit-webinterface-apache2-perl (0.002) raring; urgency=low
+libtertiusqbit-webinterface-apache2-perl (0.002) raring; urgency=low
 
   * Fixing handler return value
   * http://perl.apache.org/docs/2.0/user/handlers/intro.html#Handler_Retu
@@ -22,7 +22,7 @@ libqbit-webinterface-apache2-perl (0.002) raring; urgency=low
 
  -- Ivan Bessarabov <ivan@bessarabov.ru>  Mon, 29 Sep 2014 21:40:17 +0400
 
-libqbit-webinterface-apache2-perl (0.001) raring; urgency=low
+libtertiusqbit-webinterface-apache2-perl (0.001) raring; urgency=low
 
   * Initial commit
 

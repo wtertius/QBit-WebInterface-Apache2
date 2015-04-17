@@ -1,12 +1,14 @@
-Source: libqbit-webinterface-apache2-perl
+Source: libtertiusqbit-webinterface-apache2-perl
 Section: perl
 Priority: extra
-Maintainer: Sergei Svistunov <sergei-svistunov@yandex.ru>
-Build-Depends: debhelper (>= 8.0.0), perl, libqbit-perl, libqbit-webinterface-perl, libapache2-mod-perl2, liburi-perl
+Maintainer: Dmitry Lukiyanchuk <wtertius@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), perl, libtertiusqbit-perl, libtertiusqbit-webinterface-perl, libapache2-mod-perl2, liburi-perl
 Standards-Version: 3.9.4
 
-Package: libqbit-webinterface-apache2-perl
+Package: libtertiusqbit-webinterface-apache2-perl
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}, perl, libqbit-perl, libqbit-webinterface-perl, libapache2-mod-perl2, liburi-perl
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}, perl, libtertiusqbit-perl, libtertiusqbit-webinterface-perl, libapache2-mod-perl2, liburi-perl
+Conflicts: libqbit-webinterface-apache2-perl
+Replaces: libqbit-webinterface-apache2-perl
 Description: Package for connect WebInterface to Apache 2.
  Package for connect WebInterface to Apache 2.
