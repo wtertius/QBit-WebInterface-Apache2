@@ -1,3 +1,9 @@
+libtertiusqbit-webinterface-apache2-perl (0.004) raring; urgency=low
+
+  * Rename debian package
+
+ -- Dmitry Lukiyanchuk <tertius@yandex-team.ru>  Fri, 17 Apr 2015 17:21:31 +0300
+
 libtertiusqbit-webinterface-apache2-perl (0.003) raring; urgency=low
 
   * Fixing uninitialized value
